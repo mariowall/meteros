@@ -8,7 +8,7 @@ def openly():
   if files != None:
     omg = files.read()
     scrolly.insert("1.0",omg)
-    omg.closeg
+    omg.close()
 def save():
     file = filedialog.asksaveasfile(mode='w')
     if file != None:
