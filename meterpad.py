@@ -1,7 +1,7 @@
 from Tkinter import *
 
 text = Tk()
-text.title("MeterTXT")
+text.title("MeterPad")
 frame = Frame(text).pack(side = TOP)
 menubar = Menu(text)
 def openly():
